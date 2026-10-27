@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#eee7db" />
+    <meta name="description" content="Portfolio of a full-stack AI developer building useful, human-centered software." />
+    <title>Your Name — Full-stack AI developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/ScrollTrigger.min.js"></script>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <canvas class="site-canvas" id="site-canvas" aria-hidden="true"></canvas>
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Your Name, home">
+        <span class="wordmark-icon">Y<span>N</span></span>
+        <span class="wordmark-name">YOUR NAME<span class="wordmark-dot">.</span></span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#work"><span>01</span> Work</a>
+        <a href="#about"><span>02</span> About</a>
+        <a href="#contact"><span>04</span> Contact</a>
+      </nav>
+      <a class="availability" href="#contact"><span class="status-dot"></span> SAY HELLO</a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    </header>
+
+    <main id="top">
+      <section class="hero section-shell">
+        <div class="hero-topline eyebrow"><span>FULL-STACK AI DEVELOPER</span><span>PRODUCT / ENGINEERING</span><span>BUILD · SHIP · REPEAT</span></div>
+        <div class="hero-layout">
+          <div class="hero-copy">
+            <div class="hero-kicker"><span class="kicker-line"></span> I BUILD WHAT’S NEXT</div>
+            <h1>Make it<br /><span class="serif-word">intelligent<span class="red-period">.</span></span><br />Make it <span class="outline-word">real.</span></h1>
+            <div class="hero-bottom">
+              <p class="hero-intro">I turn ambitious ideas into <span>useful AI products</span> — from the first model call to the final pixel.</p>
+              <a class="circle-link" href="#work" aria-label="Explore selected work"><span>↓</span></a>
+            </div>
+          </div>
+          <div class="hero-art" aria-label="Abstract red computational sculpture illustration" role="img">
+            <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div><div class="art-orbit orbit-three"></div>
+            <div class="art-cross cross-one"></div><div class="art-cross cross-two"></div>
+            <div class="art-core"><span class="core-cut"></span><span class="core-dot"></span></div>
+            <span class="art-label label-top">FIG. 01 / THINKING MACHINE</span>
+            <span class="art-label label-side">INPUT → OUTPUT</span>
+            <span class="art-index">AI<span>↗</span></span>
+            <span class="art-coordinate">37° 33′ 59″ N<br />126° 58′ 41″ E</span>
+          </div>
+        </div>
+        <div class="hero-footline"><span>PRODUCT ENGINEERING / APPLIED AI</span><span>SCROLL TO EXPLORE <b>↘</b></span></div>
+      </section>
+
+      <div class="ticker" aria-label="Areas of focus">
+        <div class="ticker-track">
+          <span>THOUGHTFUL SOFTWARE</span><i>✳</i><span>USEFUL INTELLIGENCE</span><i>✳</i><span>FULL-STACK BY NATURE</span><i>✳</i><span>THOUGHTFUL SOFTWARE</span><i>✳</i><span>USEFUL INTELLIGENCE</span><i>✳</i><span>FULL-STACK BY NATURE</span><i>✳</i>
+        </div>
+      </div>
+
+      <section class="work section-shell" id="work">
+        <div class="section-heading">
+          <div><span class="eyebrow section-index">01 / SELECTED WORK</span><h2>Ideas, <span>in orbit.</span></h2></div>
+          <p>Small, sharp experiments at the intersection of AI and everyday life.<br /><span>Sample concepts — replace with your own shipped work.</span></p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card project-wide">
+            <div class="project-visual visual-orbit">
+              <div class="mock-window">
+                <div class="mock-top"><span class="mock-lights"><i></i><i></i><i></i></span><span>FIELDNOTES / WORKSPACE</span><span>⌘ K</span></div>
+                <div class="mock-body"><aside><b>F.</b><i class="active"></i><i></i><i></i><i></i><span></span><i></i></aside><div class="mock-content"><div class="mock-welcome">MONDAY, 09:41 AM <b>↗</b></div><h3>Good morning,<br /><em>let’s think.</em></h3><div class="mock-prompt"><span>Ask anything, or start with an idea...</span><b>↑</b></div><div class="mock-suggestions"><span>✳ Summarize my week</span><span>↗ Find a pattern</span></div></div></div>
+              </div>
+              <div class="visual-sticker">AI THAT<br />GETS OUT<br />OF THE WAY<span>↗</span></div>
+              <div class="visual-caption">A PERSONAL KNOWLEDGE WORKSPACE</div>
+            </div>
+            <div class="project-meta"><div><span class="eyebrow">CONCEPT 001 · PRODUCT + AI</span><h3>Fieldnotes</h3></div><p>A quiet place for loud ideas. A context-aware workspace that turns scattered notes into a second brain.</p><div class="project-tags"><span>LLM orchestration</span><span>Next.js</span><span>Postgres</span></div></div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual visual-voice">
+              <div class="voice-label">VOICE / 00:12</div>
+              <div class="voice-title">Say it.<br /><em>Shape it.</em></div>
+              <div class="waveform" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+              <div class="voice-controls"><span>◉</span><span>01:24 <b>——●————</b> 02:00</span><span>↗</span></div>
+              <div class="voice-orb"><span>●</span></div>
+              <div class="visual-caption">A VOICE-NATIVE CREATIVE TOOL</div>
+            </div>
+            <div class="project-meta"><div><span class="eyebrow">CONCEPT 002 · REAL-TIME AI</span><h3>Offscript</h3></div><p>A voice-first studio for thinking out loud, finding the thread, and making something from it.</p><div class="project-tags"><span>Speech AI</span><span>Web Audio</span><span>React</span></div></div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual visual-signal">
+              <div class="signal-top"><span>SIGNAL / 4.08.24</span><span>● LIVE</span></div>
+              <div class="signal-number">04<span>:</span>08</div>
+              <div class="signal-chart"><svg viewBox="0 0 440 150" preserveAspectRatio="none" aria-hidden="true"><path d="M0 113 C28 112 25 89 49 95 S74 116 99 83 S132 99 150 62 S174 102 198 70 S225 45 246 81 S266 98 288 57 S313 48 331 68 S349 38 372 41 S394 78 412 31 S429 33 440 15" fill="none" stroke="currentColor" stroke-width="2"/><path d="M0 113 C28 112 25 89 49 95 S74 116 99 83 S132 99 150 62 S174 102 198 70 S225 45 246 81 S266 98 288 57 S313 48 331 68 S349 38 372 41 S394 78 412 31 S429 33 440 15 L440 150 L0 150Z" fill="url(#signalFill)"/><defs><linearGradient id="signalFill" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#b92018" stop-opacity=".32"/><stop offset="1" stop-color="#b92018" stop-opacity="0"/></linearGradient></defs></svg><div class="chart-grid"><i></i><i></i><i></i><i></i></div></div>
+              <div class="signal-bottom"><span>MODEL CONFIDENCE</span><b>98.4%</b><span>↗ +12.8%</span></div>
+              <div class="visual-caption">A CALMER WAY TO READ YOUR DATA</div>
+            </div>
+            <div class="project-meta"><div><span class="eyebrow">CONCEPT 003 · DATA + INTERFACE</span><h3>Signal/Noise</h3></div><p>Human-readable intelligence for complex systems, surfaced as a clear signal instead of another dashboard.</p><div class="project-tags"><span>Data products</span><span>Python</span><span>Visx</span></div></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="manifesto" id="about">
+        <div class="manifesto-grid section-shell">
+          <div class="manifesto-left"><span class="eyebrow">02 / THE APPROACH</span><div class="manifesto-mark">✳</div><span class="mono-note">BUILT WITH INTENT<br />NOT JUST PROMPTS.</span></div>
+          <div class="manifesto-right"><h2>AI is the<br />ingredient.<br /><em>People are<br />the point.</em></h2><p>I’m a full-stack developer drawn to the useful edge of AI. I work across product, models, and infrastructure to make software that feels clear, capable, and a little bit magic.</p><div class="manifesto-stats"><div><b>01—∞</b><span>IDEA TO ITERATION</span></div><div><b>FULL</b><span>STACK, END TO END</span></div><div><b>HUMAN</b><span>IN THE LOOP</span></div></div></div>
+        </div>
+      </section>
+
+      <section class="capabilities section-shell">
+        <div class="section-heading capability-heading"><div><span class="eyebrow section-index">03 / WHAT I BRING</span><h2>From spark<br />to <span>shipped.</span></h2></div><p>Comfortable in the messy middle, from first sketch to production-ready product.</p></div>
+        <div class="capability-list">
+          <div class="capability-row"><span class="cap-number">01</span><h3>Applied AI</h3><p>LLM apps, agents, retrieval, evaluation, multimodal workflows</p><span class="cap-arrow">↗</span></div>
+          <div class="capability-row"><span class="cap-number">02</span><h3>Full-stack product</h3><p>Web apps, APIs, data models, auth, payments, deployment</p><span class="cap-arrow">↗</span></div>
+          <div class="capability-row"><span class="cap-number">03</span><h3>Interface craft</h3><p>Design systems, prototyping, motion, accessibility, details</p><span class="cap-arrow">↗</span></div>
+          <div class="capability-row"><span class="cap-number">04</span><h3>Systems thinking</h3><p>Architecture, observability, performance, pragmatic scale</p><span class="cap-arrow">↗</span></div>
+        </div>
+        <div class="toolbelt"><span class="eyebrow">STARTER TOOLKIT · CUSTOMIZE</span><div class="tool-list"><span>TypeScript</span><span>Python</span><span>React</span><span>Next.js</span><span>Node</span><span>Postgres</span><span>OpenAI</span><span>Vercel</span><span>Figma</span></div></div>
+      </section>
+
+      <section class="contact section-shell" id="contact">
+        <div class="contact-top eyebrow"><span>04 / THE NEXT THING</span><span>HAVE A GOOD ONE IN MIND?</span></div>
+        <div class="contact-content"><div><h2>Let’s make<br /><em>it matter<span>.</span></em></h2><p>Have a problem worth solving or an idea you can’t stop thinking about? I’d love to hear it.</p></div><a class="contact-button" href="mailto:hello@yourdomain.dev"><span>START A CONVERSATION</span><b>↗</b></a></div>
+        <div class="contact-foot"><span>hello@yourdomain.dev <small>← replace with your email</small></span><span>AI · SOFTWARE · SYSTEMS</span></div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-shell"><a class="wordmark" href="#top"><span class="wordmark-icon">Y<span>N</span></span><span class="wordmark-name">YOUR NAME<span class="wordmark-dot">.</span></span></a><span>DESIGNED IN THE MARGINS. BUILT FOR THE REAL WORLD.</span><div><a href="#top">BACK TO TOP ↑</a><span>© <span id="year">2026</span></span></div></footer>
+  </body>
+</html>
